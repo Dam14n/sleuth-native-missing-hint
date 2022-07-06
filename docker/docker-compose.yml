@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: sleuth-native-missing-hint:0.0.1-SNAPSHOT
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
